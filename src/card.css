@@ -1,0 +1,135 @@
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card-1 {
+    margin: 30px auto;
+    width: 250px;
+    height: 200px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(196, 183, 67, 0.356), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .card-2 {
+    margin: 30px auto;
+    width: 250px;
+    height: 200px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(48, 211, 15, 0.212), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .card-3 {
+    margin: 30px auto;
+    width: 250px;
+    height: 200px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(211, 15, 15, 0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .card-4 {
+    margin: 30px auto;
+    width: 250px;
+    height: 200px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(242, 246, 0, 0.363), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .card .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+  }
+  
+  .card .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+  }
+  
+  .card .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -55px;
+    height: 40px;
+  }
+  
+  .card.card-1:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(243, 159, 2, 0.644);
+  }
+  
+  .card.card-2:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(2, 259, 54, 0.527);
+  }
+  
+  .card.card-3:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(233, 4, 4, 0.25), 
+      -5px -5px 30px 15px rgba(211, 15, 15, 0.25);
+  }
+  
+  .card.card-4:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(250, 246, 4, 0.534), 
+      -5px -5px 30px 15px rgba(229, 255, 0, 0.589);
+  }
+  
+  .title-infected {
+    color: rgb(243, 159, 2);
+  }
+  
+  .title-recovered {
+    color: rgb(2, 243, 54);
+  }
+  
+  .title-death {
+    color: rgb(243, 78, 2);
+  }
+  
+  .title-critical {
+    color: rgba(237, 241, 9, 0.794);
+  }
+  
+ .data{
+  text-align: center;
+  color: rgb(126, 120, 115);
+  /* border-radius: 0px 0px 40px 40px; */
+  font-weight: bold;
+  font-size: 45px;
+  margin-top: 5px;
+  padding: 25px; 
+  height: 0px;
+ }
+
+ .per{
+   font-size: 13px;
+   margin: 0px;
+   color: rgb(7, 7, 7);
+ }
+  
+  @media all and (max-width: 500px) {
+    .card-list {
+      
+      flex-direction: column;
+    }
+  }
+  
+  
+ 
